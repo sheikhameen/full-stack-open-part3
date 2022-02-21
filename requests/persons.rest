@@ -1,0 +1,10 @@
+DELETE https://pure-wildwood-94463.herokuapp.com/api/persons/4
+
+###
+POST https://pure-wildwood-94463.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+    "name":"superman",
+    "number":"34341231234"
+}
