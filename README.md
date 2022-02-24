@@ -1,1 +1,1 @@
-Backend server: https://pure-wildwood-94463.herokuapp.com/api/persons
+https://pure-wildwood-94463.herokuapp.com

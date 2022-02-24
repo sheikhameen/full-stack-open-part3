@@ -1,4 +1,16 @@
-DELETE https://pure-wildwood-94463.herokuapp.com/api/persons/4
+DELETE http://localhost:3001/api/persons/621726dba6014c7de35293f7
+
+###
+GET http://localhost:3001/api/persons
+
+###
+PUT http://localhost:3001/api/persons/621726dba6014c7de35293f7
+Content-Type: application/json
+
+{
+    "name":"superman",
+    "number":"12"
+}
 
 ###
 POST https://pure-wildwood-94463.herokuapp.com/api/persons
