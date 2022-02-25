@@ -1,22 +1,25 @@
-DELETE http://localhost:3001/api/persons/621726dba6014c7de35293f7
-
-###
 GET http://localhost:3001/api/persons
 
 ###
-PUT http://localhost:3001/api/persons/621726dba6014c7de35293f7
+GET http://localhost:3001/api/persons/621742495b8c60a78e20bb26
+
+###
+DELETE http://localhost:3001/api/persons/6218e9663ed200fbb1868b0c
+
+###
+POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name":"superman",
-    "number":"12"
+    "name":"onlyOnePersonWithThisName",
+    "number":"040-22334455"
 }
 
 ###
-POST https://pure-wildwood-94463.herokuapp.com/api/persons
+PUT http://localhost:3001/api/persons/6218e77f3ed200fbb1868afa
 Content-Type: application/json
 
 {
-    "name":"superman",
-    "number":"34341231234"
+    "name":"test",
+    "number":"040-22334455"
 }
