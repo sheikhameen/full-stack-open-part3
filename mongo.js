@@ -4,7 +4,7 @@ if (process.argv.length < 3) {
   console.log(`Please provide arguments.\n
 Usage:
 node mongo.js <password>                   - to list all of the existing entries in phonebook
-node mongo.js <password> <name> <number>   - to add a new entry to phonebook  `);
+node mongo.js <password> <name> <number>   - to add a new entry to phonebook  `)
   process.exit(1)
 }
 
@@ -26,9 +26,9 @@ if (process.argv.length === 3) {
   Person
     .find({})
     .then(persons => {
-      console.log('phonebook:');
+      console.log('phonebook:')
       persons.forEach(person => {
-        console.log(person.name, person.number);
+        console.log(person.name, person.number)
       })
       mongoose.connection.close()
     })

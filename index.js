@@ -82,7 +82,7 @@ app.put('/api/persons/:id', (request, response, next) => {
       if (updatedPerson) {
         response.json(updatedPerson)
       } else {
-        response.status(404).json({error: `Information of ${body.name} has already been removed from server`})
+        response.status(404).json({ error: `Information of ${body.name} has already been removed from server` })
       }
     }).catch(error => next(error))
 
